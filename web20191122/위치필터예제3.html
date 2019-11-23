@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style></style>
+        <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+        <script>
+        $(document).ready(function(){
+          $('tr:odd').css('background','#F9F9F9');
+          $('tr:even').css('background','#9F9F9F');
+          $('tr:first').css('background','#000').css('color','#FFF');
+          $('tr:last').css('font-weight','bold');
+        });
+        </script>
+      </head>
+<body>
+<table>
+  <tr> <th>이름</th> <th>혈액형</th> <th>지역</th> </tr>
+  <tr> <td>kim</td> <td>AB형</td> <td>서울특별시 송파구</td> </tr>
+  <tr> <td>wang</td> <td>B형</td> <td>미국 캘리포니아</td> </tr>
+  <tr> <td>Lee</td> <td>AB형</td> <td>미국 메사추세츠</td> </tr>
+  <tr> <td>Jung</td> <td>O형</td> <td>서울 강서구</td> </tr>
+  <tr> <td>Jo</td> <td>A형</td> <td>서울 노량진구</td> </tr>
+  <tr> <td>Na</td> <td>B형</td> <td>서울 용산구</td> </tr>
+</table>
+</body></html>

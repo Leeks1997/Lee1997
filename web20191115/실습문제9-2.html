@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>실습문제 9-2</title>
+        <script>
+        function printimg(obj) {
+          var img = document.getElementById("img");
+          img.src = obj;
+        }
+        </script>
+      </head>
+      <body>
+         <form>
+           <input type ="radio" name="fruits" value ="mango.jpg"
+            onclick="printimg(this.value)">망고
+            <input type ="radio" name="fruits" value ="apple.jpg"
+             onclick="printimg(this.value)">사과
+             <input type ="radio" name="fruits" value ="apple2.png"
+              onclick="printimg(this.value)">appleTune
+          </form>
+          <img src="" width="200" height="200" id = "img">
+      </body>
+    </html>

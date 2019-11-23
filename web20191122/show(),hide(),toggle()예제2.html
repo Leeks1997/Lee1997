@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+          #gallery {
+            width:400px;
+            border : 2px solid black;
+            border-radius : 10px;
+          }
+          #gallery figure{
+            margin:10px 20px;
+            color:red;
+          }
+        </style>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('img').click(function(){
+          $('img').hide('fast');
+          $('#gallery').css('background-color','yellow');
+        });
+      });
+    </script>
+      </head>
+      <body>
+        <div id="gallery">
+            <figure>
+              <img src="이나은.jpg" width=330 height=500>
+              <figcaption><b>에이프릴의 이나은</b>
+                아름답게 웃고 있는 한국의 아이돌</figcaption>
+            </figure>
+          </div>
+      </body>
+    </html>

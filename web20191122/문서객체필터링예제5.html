@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>연습</title>
+        <style></style>
+        <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+        <script>
+        $(document).ready(function(){
+          $('h4:even').css({
+            backgroundColor : 'pink',
+            color : 'green'
+          });
+          $('h3').filter(':even').css({
+              backgroundColor : 'black',
+              color : 'white'
+          });
+      });
+      </script>
+      </head>
+
+<body>
+    <h3>라면</h3>
+    <h3>김밥</h3>
+    <h3>돈가스</h3>
+    <h3>초밥</h3>
+    <h3>전복죽</h3>
+    <h3>만두국</h3>
+    <h4>짜장</h4>
+    <h4>짬뽕</h4>
+    <h4>탕수육</h4>
+    <h4>잡채</h4>
+</body></html>
